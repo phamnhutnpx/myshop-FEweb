@@ -2,19 +2,18 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const [visible, setVisible] = useState(false)
+  const [visible, setVisible] = useState(false);
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
     if (scrolled > 300) {
-      setVisible(true)
-    }
-    else if (scrolled <= 300) {
-      setVisible(false)
+      setVisible(true);
+    } else if (scrolled <= 300) {
+      setVisible(false);
     }
   };
 
-  window.addEventListener('scroll', toggleVisible);
+  window.addEventListener("scroll", toggleVisible);
   return (
     <>
       <footer className="footer">

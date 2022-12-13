@@ -84,7 +84,7 @@ const CustomerReview = () => {
                   <i className="evaluate__content-icon--star fas fa-star"></i>
                   <i className="evaluate__content-icon--star fas fa-star"></i>
                 </div>
-                <h3 className="evaluate__content--name">Nguyen Tri Hai</h3>
+                <h3 className="evaluate__content--name">Nguyen Van Lich</h3>
                 <p className="evaluate__content--desc">
                   {newProduct
                     ? newProduct[0]?.[0]?.reviewContent
